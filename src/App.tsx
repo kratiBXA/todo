@@ -24,6 +24,8 @@ function App() {
     setTodos(todos.filter(todo => todo.id !== id));
   };
 
+  
+
   return (
     <div className="app">
       <h1 className="title">Todos</h1>
